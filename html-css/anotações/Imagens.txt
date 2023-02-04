@@ -1,0 +1,8 @@
+
+Você pode usar o GIMP para redirecionar as imagens!
+
+Imagens costumam ter uma largura de até 650px nos sites;
+
+Resolução de 50px também já está de bom tamanho.
+
+Arquivos grandes deixam os sites lentos e não costumam aparecer na pesquisa do google.
