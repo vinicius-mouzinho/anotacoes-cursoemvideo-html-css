@@ -22,6 +22,13 @@
 
     }
 
+    caption {
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 10px;
+        background-color: lightgray;
+    }
+
     td, th  {
 
         border: 1px solid black;
@@ -44,6 +51,12 @@
 
     }
 
+    tbody > tr:nth-child(2n) {
+
+        background-color: lightgray;
+        
+    }
+
 </style>
 
 <body>
@@ -61,31 +74,76 @@
     -->
     
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
 
         <tbody>
                 <tr>
                     <td>São Paulo</td>
-                    <td class="number">45 919 049</td>
+                    <td class="number">45.919.049</td>
                 </tr>
                 <tr>
                     <td>Minas Gerais</td>
-                    <td class="number">21 168 791</td>
+                    <td class="number">21.168.791</td>
                 </tr>
                 <tr>
                     <td>Rio de Janeiro</td>
-                    <td class="number">17 264 943</td>
+                    <td class="number">17.264.943</td>
+                </tr>
+                <tr>
+                    <td>Bahia</td>
+                    <td class="number">14.873.064</td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td class="number">11.433.957</td>
+                </tr>
+                <tr>
+                    <td>Rio Grande do Sul</td>
+                    <td class="number">11.377.269</td>
+                </tr>
+                <tr>
+                    <td>Pernambuco</td>
+                    <td class="number">9.557.071</td>
+                </tr>
+                <tr>
+                    <td>Ceará</td>
+                    <td class="number">9.132.078</td>
+                </tr>
+                <tr>
+                    <td>Pará</td>
+                    <td class="number">8.602.865</td>
+                </tr>
+                <tr>
+                    <td>Santa Catarina</td>
+                    <td class="number">7.164.788</td>
+                </tr>
+                <tr>
+                    <td>Maranhão</td>
+                    <td class="number">7.075.181</td>
+                </tr>
+                <tr>
+                    <td>Goiás</td>
+                    <td class="number">7.018.354</td>
+                </tr>
+                <tr>
+                    <td>Amazonas</td>
+                    <td class="number">4.144.597</td>
+                </tr>
+                <tr>
+                    <td>Espírito Santo</td>
+                    <td class="number">4.018.650</td>
                 </tr>
         </tbody>
 
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th>
                 <td class="number">0 000 000</td>
             </tr>
         </tfoot>
